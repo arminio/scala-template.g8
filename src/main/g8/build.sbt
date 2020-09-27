@@ -36,7 +36,7 @@ lazy val compilerOptions =
   )
 
 lazy val typeSystemEnhancements =
-  addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.3")
+  addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.11.0")
 
 def dep(org: String)(version: String)(modules: String*) =
     Seq(modules:_*) map { name =>
